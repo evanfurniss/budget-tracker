@@ -35,5 +35,3 @@ Live repo: https://github.com/evanfurniss/budget-tracker
 ![On open](./public/assets/1.png)
 
 ![After added](./public/assets/2.png)
-
-![Stats](./public/assets/3.png)
