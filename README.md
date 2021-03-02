@@ -8,13 +8,13 @@
 
 ## Installation
 
-No installation required. Users will be directed to the heroku link listed below or on the repo page which brings you to a live website that will take information from the user and will allow the user to add and eat burgers.
+No installation required. Users will be directed to the heroku link listed below or on the repo page which brings you to a live website that will take information from the user to track their budget needs with and without an internet connection.
 
 ## Description
 
 The budget tracker app allows users to track their expenses with or without internet connection. When the users is able to get a connection again, the locally stored data will be automatically sent to our Mongo Atlas database. This way, regardless of acceess to wireless the user's expenses will be tracked to ensure they do not go over or under budget.
 
-The app works 
+The app works by checking if the user is online first. If so, the information passes straight from the app to our mongodb. If we are offline, the information is passed to the indexedDB built into web browsers. When the user reestablishes a connection, the user's data that was held while offline is batch pushed to the mongo atlas db.
 
 ## Contribution
 
