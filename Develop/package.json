@@ -13,6 +13,7 @@
     "url": "git+https://github.com/coding-boot-camp/unit18hw.git"
   },
   "author": "",
+  "image": "heroku/nodejs",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/coding-boot-camp/unit18hw/issues"
