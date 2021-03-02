@@ -23,7 +23,7 @@ mongoose.connect(MONGODB_URI,{
 });
 
 // mongoose.connect("mongodb://localhost/budget", {
-//   useNewUrlParser: true,
+//   useNewUrlParser: true,npm i
 //   useFindAndModify: false
 // });
 
